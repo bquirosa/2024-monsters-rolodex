@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Monsters Rolodex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the "Monsters Rolodex" project created as part of the **Zero to Mastery** course on Udemy, taught by Andrei Neagoie. The main objective of this project is to build a React application where users can view, search, and filter a list of monsters.
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+**Monsters Rolodex** is a web application that allows users to view a list of monsters in a Rolodex-style card display. Each monster is an object that contains information such as name, email, and an avatar image. The application also allows users to search and filter monsters interactively.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Display a list of monsters**: Each monster has a name, email, and image.
+- **Real-time search**: Allows users to search for monsters by name.
+- **Interactive filtering**: The list of monsters automatically filters as users type in the search bar.
+- **Responsive design**: The app is designed to adapt to different screen sizes (mobile, tablet, desktop).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React.js**: The main framework used to build the user interface.
+- **CSS**: For styling the application.
+- **create-react-app**: A tool for bootstrapping and configuring the React project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `npm run build`
+The project folder structure looks like this:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Monsters-Rolodex/ ├── public/ │ └── index.html ├── src/ │ ├── components/ │ │ ├── CardList.js │ │ ├── Card.js │ │ └── SearchBox.js │ ├── App.js │ ├── App.css │ └── index.js ├── package.json └── README.md
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `src/`: Contains the source code for the project, including components and application logic.
+- `public/`: Contains static files, such as `index.html`.
+- `package.json`: Contains project dependencies and configurations.
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To get the project running locally, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone https://github.com/bquirosa/2024-monsters-rolodex
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project directory:
 
-## Learn More
+   ```bash
+   cd monsters-rolodex
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install the dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm install
 
-### Code Splitting
+4. Start the application in your browser:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   npm start
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Conclusion
+This project is a perfect example for learning React from scratch and covers a lot of essential concepts, such as functional components, event handling, state management, and communication between components. It’s also a great way to start building larger projects with React.
