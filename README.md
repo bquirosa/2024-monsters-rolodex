@@ -37,7 +37,7 @@ To get the project running locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/monsters-rolodex.git
+   git clone https://github.com/bquirosa/2024-monsters-rolodex
 
 2. Navigate to the project directory:
 
@@ -53,7 +53,6 @@ To get the project running locally, follow these steps:
 
    ```bash
    npm start
-
 
 ## Conclusion
 This project is a perfect example for learning React from scratch and covers a lot of essential concepts, such as functional components, event handling, state management, and communication between components. It’s also a great way to start building larger projects with React.
